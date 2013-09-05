@@ -1,13 +1,6 @@
-<!DOCTYPE HTML>
-<html lang="en-US">
-<head>
-	<meta charset="UTF-8" />
-	<link rel="stylesheet" type="text/css" href="reset.css" />
-	<link rel="stylesheet" type="text/css" href="style.css" />
-	<title></title>
-</head>
-<body>
-	<div class="container">
+<?php
+	include './header.php';
+?>
 		<div class="train">
 			<section class="event">
 				<div class="relative">
@@ -24,9 +17,14 @@
 						<img class="bw" src="images/home_ticket_0c.png" alt="" />
 						<img class="color" src="images/home_ticket_1c.png" alt="" />
 					</div>
+					<div class="four">
+						<img class="bw" src="images/home_ticket_0c.png" alt="" />
+						<img class="color" src="images/home_ticket_1c.png" alt="" />
+					</div>
+
 				</div>
 			</section>
 		</div>
-	</div>
-</body>
-</html>
+<?php
+	include 'footer.php';
+?>
